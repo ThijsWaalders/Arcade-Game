@@ -12,7 +12,7 @@
 * One a player reached the water the player wins the game.
 
 
-# How to begin:
+## How to begin:
 
 1. Start with the _app.js_ file
 2. **DO NOT EDIT** these files: _styles.css, engine.js, resources.js and the img folder including the images_!
@@ -91,7 +91,7 @@ Code is formatted with consistent, logical, and easy-to-read formatting as descr
 ## Suggestions to Make Your Project Stand Out! (not required)
 Provide additional functionality to the game beyond minimum requirements, for example:
 
-* - [ ] Add collectible items on screen\
+* - [ ] Add collectible items on screen
 * - [ ] Multiple vehicle types
 * - [ ] Timed games
 * - [ ] Be creative!
