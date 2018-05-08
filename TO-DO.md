@@ -1,5 +1,6 @@
 # TO-DO list for the arcade game project
 
+
 ## How the game works:
 
 * There are 2 kind of objects, a _player_ and an _enemy_.
@@ -10,10 +11,11 @@
 * Once a player and a enemy collide the game should _reset_.
 * One a player reached the water the player wins the game.
 
+
 # How to begin:
 
-1. - [ ] Start with the _app.js_ file
-2. - [ ] **DO NOT EDIT** these files: _styles.css, engine.js, resources.js and the img folder including the images_!
+1. Start with the _app.js_ file
+2. **DO NOT EDIT** these files: _styles.css, engine.js, resources.js and the img folder including the images_!
 3. - [ ] Add instructions how to load and play the game to the README.md file.
 4. - [ ] Inside the app.js file, you will need to implement the Player and the Enemy classes, using Object-Oriented JavaScript. Part of the code for the Enemy is provided to you, and you will need to complete the following:
 
@@ -46,10 +48,12 @@ Once you have completed implementing the Player and Enemy, you should instantiat
 
 
 ### Adding your own
+
 If you would like you can add additional functionality to the game. You can add more code to the app.js file and to the Enemy and Player classes to accomplish that.
 
 
 ### Additional Functionality
+
 In addition to the basic functionality, you can add more cool functionality to your game. For example, here are some additional features that you can add:
 
 * - [ ] Player selection: allow the user to select the image for the player character before starting the game. You can use the different character images provided in the images folder (we’ll get to that below).
@@ -57,3 +61,57 @@ In addition to the basic functionality, you can add more cool functionality to y
 * - [ ] Collectables: you can add gems to the game, allowing the player to collect them to make the game more interesting.
 Anything else you like!
 
+
+## Project Rubic:
+
+###Game Functions
+
+**Error Free**
+The game functions correctly and runs error free
+* - [ ] Player can not move off screen
+* - [ ] Vehicles cross the screen
+* - [ ] Vehicle-player collisions happen logically (not too early or too late)
+* - [ ] Vehicle-player collision resets the game
+* - [ ] Something happens when player wins
+
+### Object-Oriented Code
+
+**Object Oriented Code**
+* - [ ] Game objects (player and vehicles) are implemented using JavaScript object-oriented programming features.
+
+### Documentation
+
+**README**
+* - [ ] A `README` file is included detailing all steps required to successfully run the application.
+**Comments**
+* - [ ] Comments are present and effectively explain longer code procedures. As a rule of thumb: describe what all custom functions and object methods do.
+**Code Quality**
+Code is formatted with consistent, logical, and easy-to-read formatting as described in the [http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html](Udacity JavaScript Style Guide).
+
+## Suggestions to Make Your Project Stand Out! (not required)
+Provide additional functionality to the game beyond minimum requirements, for example:
+
+* - [ ] Add collectible items on screen\
+* - [ ] Multiple vehicle types
+* - [ ] Timed games
+* - [ ] Be creative!
+
+
+
+
+### Resource from Udacity:
+
+[Object Oriented JavaScript](https://classroom.udacity.com/courses/ud015)
+[OOJS Notes](https://docs.google.com/document/d/1F9DY2TtWbI29KSEIot1WXRqqao7OCd7OOC2W3oubSmc/pub?embedded=true)
+[HTML5 Canvas](https://www.udacity.com/course/ud292)
+[Art assets and provided game engine](https://github.com/udacity/frontend-nanodegree-arcade-game)
+[Udacity Front End Nanodegree JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
+[Project rubric](https://review.udacity.com/?_ga=1.242571394.1230547285.1451946706#!/projects/2696458597/rubric)
+[Student FAQ](https://review.udacity.com/#!/submissions/student-faq)
+
+
+### Other Resource:
+
+[Front End problemsolving and debugging skills by Cameron Pittman ](https://github.com/ThijsWaalders/README/blob/master/Front%20End%20problemsolving%20and%20debugging%20skills%20by%20Cameron%20Pittman.md)
+[Git Cheat Sheet by Roger Dudler](https://github.com/ThijsWaalders/README/blob/master/Git%20cheat%20sheet.pdf)
+[Git Merging vs rebasing by Bitbucket](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
