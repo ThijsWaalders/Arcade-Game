@@ -116,10 +116,18 @@ Provide additional functionality to the game beyond minimum requirements, for ex
 [Git Cheat Sheet by Roger Dudler](https://github.com/ThijsWaalders/README/blob/master/Git%20cheat%20sheet.pdf)
 [Git Merging vs rebasing by Bitbucket](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
+[2D Collision Detection](https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection)
+[How to make a simple HTML5 Canvas game - LDG](http://www.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game/)
+[HTML Canvas Reference](https://www.w3schools.com/Tags/ref_canvas.asp)
 
 
 
-##TODO: 
+
+
+
+
+
+##TODO:
 
 ## Frogger Game Description
 Your implementation must at minimum follow the basic functionality, but you can add additional optional functionality to your game, if you wish.
