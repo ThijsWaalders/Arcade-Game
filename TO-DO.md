@@ -17,7 +17,7 @@
 1. Start with the _app.js_ file
 2. **DO NOT EDIT** these files: _styles.css, engine.js, resources.js and the img folder including the images_!
 3. - [ ] Add instructions how to load and play the game to the README.md file.
-4. - [ ] Inside the app.js file, you will need to implement the Player and the Enemy classes, using Object-Oriented JavaScript. Part of the code for the Enemy is provided to you, and you will need to complete the following:
+4. - [x] Inside the app.js file, you will need to implement the Player and the Enemy classes, using Object-Oriented JavaScript. Part of the code for the Enemy is provided to you, and you will need to complete the following:
 
 5. - [x] The Enemy function, which initiates the Enemy by:
     * - [x] Loading the image by setting this.sprite to the appropriate image in the image folder (already provided)
@@ -26,27 +26,27 @@
 6. - [x] The update method for the Enemy
     * - [x] Updates the Enemy location (you need to implement)
     * - [x] Handles collision with the Player (you need to implement)
-7. - [ ] You can add your own Enemy methods as needed
+7. - [x] You can add your own Enemy methods as needed
 
 You will also need to implement the Player class, and you can use the Enemy class as an example on how to get started.
 Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
 At minimum you should implement the following:
 
-8. - [ ] The Player function, which initiates the Player by:
-    * - [ ] Loading the image by setting this.sprite to the appropriate image in the image folder (use the code from the Enemy function as an example on how to do that)
-    * - [ ] Setting the Player initial location
-9. - [ ] The update method for the Player (can be similar to the one for the Enemy)
-10. - [ ] The render method for the Player (use the code from the render method for the Enemy)
-11. - [ ] The handleInput method, which should receive user input, allowedKeys (the key which was pressed) and move the player according to that input. In particular:
-    * - [ ] Left key should move the player to the left, right key to the right, up should move the player up and down should move the player down.
-    * - [ ] Recall that the player cannot move off screen (so you will need to check for that and handle appropriately).
-    * - [ ] If the player reaches the water the game should be reset by moving the player back to the initial location (you can write a separate reset Player method to handle that).
-12. - [ ] You can add your own Player methods as needed.
+8. - [x] The Player function, which initiates the Player by:
+    * - [x] Loading the image by setting this.sprite to the appropriate image in the image folder (use the code from the Enemy function as an example on how to do that)
+    * - [x] Setting the Player initial location
+9. - [x] The update method for the Player (can be similar to the one for the Enemy)
+10. - [x] The render method for the Player (use the code from the render method for the Enemy)
+11. - [x] The handleInput method, which should receive user input, allowedKeys (the key which was pressed) and move the player according to that input. In particular:
+    * - [x] Left key should move the player to the left, right key to the right, up should move the player up and down should move the player down.
+    * - [x] Recall that the player cannot move off screen (so you will need to check for that and handle appropriately).
+    * - [x] If the player reaches the water the game should be reset by moving the player back to the initial location (you can write a separate reset Player method to handle that).
+12. - [x] You can add your own Player methods as needed.
 
 Once you have completed implementing the Player and Enemy, you should instantiate them by:
 
-13. - [ ] Creating a new Player object
-14. - [ ] Creating several new Enemies objects and placing them in an array called allEnemies
+13. - [x] Creating a new Player object
+14. - [x] Creating several new Enemies objects and placing them in an array called allEnemies
 
 
 ### Adding your own

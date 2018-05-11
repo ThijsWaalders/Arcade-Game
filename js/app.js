@@ -4,7 +4,7 @@ var Enemy = function(x, y, speed) {
     // we've provided one for you to get started
     this.x = x;
     this.y = y;
-    this.speed = speed;
+    this.speed = Math.floor(Math.random() * 197);
     // The image/sprite for our enemies, this uses
     // a helper we've provided to easily load images
     this.sprite = 'images/enemy-bug.png';
@@ -39,22 +39,27 @@ Enemy.prototype.render = function() {
 // Now write your own player class
 // This class requires an update(), render() and
 // a handleInput() method.
-const Player = function(x, y, speed) {
+var Player = function(x, y, speed) {
     this.x = x;
     this.y = y;
     this.speed = speed;
-    this.sprite = 'images/char-cat-girl.png';
+    this.sprite = 'images/char-boy.png';
 };
 
 Player.prototype.update = function() {
-    // Prevent player from moving out of canvas
+    // Prevent player from moving beyond canvas wall boundaries
     if (this.y > 380) {
         this.y = 380;
-    } if (this.x > 400) {
+    }
+
+    if (this.x > 400) {
         this.x = 400;
-    } if (this.x < 0) {
+    }
+
+    if (this.x < 0) {
         this.x = 0;
     }
+
     // Check for player reaching top of canvas and winning the game
     if (this.y < 0) {
         this.x = 200;
@@ -62,7 +67,6 @@ Player.prototype.update = function() {
     }
 };
 
-// draw the Player on screen
 Player.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
