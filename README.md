@@ -7,7 +7,7 @@ Classic arcade game like frogger but now with bugs as enemies and a person as th
 1. Download or clone this git repository
 `git clone git@github.com:https://github.com/ThijsWaalders/Arcade-Game.git`
 
-2. Install the chrome [Web Server Extension](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?utm_source=gmail)
+2. Install the chrome [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?utm_source=gmail)
 
 3. Run the extension, choose the correct folder (the git repo you've just downloaded/cloned) and go to the Web Servers URL.
 
