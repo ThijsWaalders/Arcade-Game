@@ -12,3 +12,5 @@ Classic arcade game like frogger but now with bugs as enemies and a person as th
 3. Run the extension, choose the correct folder (the git repo you've just downloaded/cloned) and go to the Web Servers URL.
 
 Make sure the server is running and check if the ports match.
+
+[Or you can check out the live version](https://thijswaalders.github.io/Arcade-Game/)
