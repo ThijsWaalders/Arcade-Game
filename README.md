@@ -1,6 +1,14 @@
-frontend-nanodegree-arcade-game
-===============================
+# Arcade Game
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+Classic arcade game like frogger but now with bugs as enemies and a person as the player. The Player can use **the arrow keys UP RIGHT DOWN LEFT** to move the player around. Don't collide into an enemy! That will reset the game. Once you have reached the water you win and get + 1 point on your score and the player can try it again.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## How to run this game
+
+1. Download or clone this git repository
+`git clone git@github.com:https://github.com/ThijsWaalders/Arcade-Game.git`
+
+2. Install the chrome [Web Server Extension](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?utm_source=gmail)
+
+3. Run the extension, choose the correct folder (the git repo you've just downloaded/cloned) and go to the Web Servers URL.
+
+Make sure the server is running and check if the ports match.
