@@ -66,7 +66,7 @@ Anything else you like!
 
 ## Project Rubic:
 
-###Game Functions
+### Game Functions
 
 **Error Free**
 The game functions correctly and runs error free
