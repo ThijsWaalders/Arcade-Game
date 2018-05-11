@@ -19,16 +19,18 @@
 3. - [ ] Add instructions how to load and play the game to the README.md file.
 4. - [ ] Inside the app.js file, you will need to implement the Player and the Enemy classes, using Object-Oriented JavaScript. Part of the code for the Enemy is provided to you, and you will need to complete the following:
 
-5. - [ ] The Enemy function, which initiates the Enemy by:
-    * - [ ] Loading the image by setting this.sprite to the appropriate image in the image folder (already provided)
-    * - [ ] Setting the Enemy initial location (you need to implement)
-    * - [ ] Setting the Enemy speed (you need to implement)
-6. - [ ] The update method for the Enemy
-    * - [ ] Updates the Enemy location (you need to implement)
-    * - [ ] Handles collision with the Player (you need to implement)
+5. - [x] The Enemy function, which initiates the Enemy by:
+    * - [x] Loading the image by setting this.sprite to the appropriate image in the image folder (already provided)
+    * - [x] Setting the Enemy initial location (you need to implement)
+    * - [x] Setting the Enemy speed (you need to implement)
+6. - [x] The update method for the Enemy
+    * - [x] Updates the Enemy location (you need to implement)
+    * - [x] Handles collision with the Player (you need to implement)
 7. - [ ] You can add your own Enemy methods as needed
 
-You will also need to implement the Player class, and you can use the Enemy class as an example on how to get started. At minimum you should implement the following:
+You will also need to implement the Player class, and you can use the Enemy class as an example on how to get started.
+Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
+At minimum you should implement the following:
 
 8. - [ ] The Player function, which initiates the Player by:
     * - [ ] Loading the image by setting this.sprite to the appropriate image in the image folder (use the code from the Enemy function as an example on how to do that)
