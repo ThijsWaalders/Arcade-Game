@@ -1,3 +1,7 @@
+// Counter for scoreboard:
+let counter = 0;
+const scoreBoard = document.getElementById('scoreboard');
+
 // Enemies our player must avoid
 var Enemy = function(x, y, speed) {
     // Variables applied to each of our instances go here,
@@ -26,6 +30,8 @@ Enemy.prototype.update = function(dt) {
         player.x + 37 > this.x &&
         player.y < this.y + 25 &&
         30 + player.y > this.y) {
+            counter = 0;
+            scoreBoard.innerHTML = counter; // Update scoreboard
             player.x = 200;
             player.y = 300;
         }
@@ -64,6 +70,8 @@ Player.prototype.update = function() {
     if (this.y < 0) {
         this.x = 200;
         this.y = 380;
+        counter = counter + 1;
+        scoreBoard.innerHTML = counter; // Update scoreboard
     }
 };
 
