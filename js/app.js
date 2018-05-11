@@ -21,7 +21,14 @@ Enemy.prototype.update = function(dt) {
     } else {
         this.x = -100; // when off canvas, reset position of enemy
     }
-    checkCollision(this);
+    // check for collision
+    if (player.x < this.x + 60 &&
+        player.x + 37 > this.x &&
+        player.y < this.y + 25 &&
+        30 + player.y > this.y) {
+            player.x = 200;
+            player.y = 300;
+        }
 };
 
 // Draw the enemy on the screen, required method for game
@@ -53,6 +60,11 @@ Player.prototype.update = function() {
         this.x = 200;
         this.y = 380;
     }
+};
+
+// draw the Player on screen
+Player.prototype.render = function() {
+    ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
 
 Player.prototype.handleInput = function(keyPress) {
